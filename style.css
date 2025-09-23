@@ -28,8 +28,20 @@ a {
 }
 table{
     color: #2c2be2;
-    text-align: center;  
+    text-align: center; 
+    border: 1px solid #1eefd7;
+    border-collapse: separate;
+    border-spacing: 5px;
 }
 body {
-    background-color: black
+    background-color: #1c1b1b
+}
+input[type=text] {
+    width: 50%px;
+    padding: 3px;
+    margin: 2px 0;
+    box-sizing: border-box;
+}
+label {
+    color: aqua
 }
