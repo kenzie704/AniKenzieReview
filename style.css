@@ -1,21 +1,21 @@
 p {
-    color: #7c39a8;
+    color: #c97afd;
     line-height: 1.2;
     letter-spacing: normal;
     word-spacing: 2px;
     text-align: center;
 }
 h1, h2, h3 {
-    color: #3996c8;
+    color: #66c9fd;
     text-align: center
 }
 li {
-    color: #9342c8;
+    color: #cfa9e8;
     line-height: 1.5;
     font-style: normal;
 }
 h1{
-    color: #7c39a8;
+    color: #b862f0;
     text-align: center;
     text-decoration: underline;
     text-transform: capitalize;
@@ -23,18 +23,19 @@ h1{
     font-style: italic
 }
 a {
-    color: #5d3edd;
+    color: #eaa2ff;
     text-decoration: none;    
 }
 table{
-    color: #2c2be2;
+    color: #7675ff;
     text-align: center; 
     border: 1px solid #1eefd7;
     border-collapse: separate;
     border-spacing: 5px;
 }
 body {
-    background-color: #262525
+    background-color: #262525;
+    font-family: Arial, Helvetica, sans-serif
 }
 input[type=text] {
     width: 50%px;
@@ -44,4 +45,12 @@ input[type=text] {
 }
 label {
     color: aqua
+}
+.highlight {
+    color: #dd96fc
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
 }
