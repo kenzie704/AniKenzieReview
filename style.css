@@ -1,0 +1,35 @@
+p {
+    color: #7c39a8;
+    line-height: 1.2;
+    letter-spacing: normal;
+    word-spacing: 2px;
+    text-align: center;
+}
+h1, h2, h3 {
+    color: #3996c8;
+    text-align: center
+}
+li {
+    color: #9342c8;
+    line-height: 1.5;
+    font-style: normal;
+}
+h1{
+    color: #7c39a8;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-style: italic
+}
+a {
+    color: #5d3edd;
+    text-decoration: none;    
+}
+table{
+    color: #2c2be2;
+    text-align: center;  
+}
+body {
+    background-color: black
+}
