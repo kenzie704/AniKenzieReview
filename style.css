@@ -76,10 +76,9 @@ video, iframe {
     height: auto;
 }
 
+/* if the screen size is 600px or less, set the font-size of <div> to 30px*/
 @media only screen and (max-width: 600px) {
-    .item1 {grid-area: 1 / span 6;}
-    .item2 {grid-area: 2 / span 6;}
-    .item3 {grid-area: 3 / span 6;}
-    .item4 {grid-area: 4 / span 6;}
-    .item5 {grid-area: 5 / span 6;}
+    div.example{
+        font-size: 30px;
+    }
 }
