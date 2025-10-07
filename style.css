@@ -85,9 +85,9 @@ iframe {
 /*stuff that stays the same*/
 .navbutton {
     background-color: #020003;
-    border: 2px solid #444;
+    border: 2px double#444;
 
-    height: 30px;
+    height: 60px;
     padding: 10px;
 }
 
