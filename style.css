@@ -24,7 +24,7 @@ table {
     border-spacing: 5px;
 }
 body {
-    background-color: #262525;
+    background-color: #000000;
 }
 input[type="text"] {
     width: 50%px;
@@ -95,6 +95,7 @@ iframe {
     border: 2px double#444;
 
     height: 60px;
+    vertical-align: middle;
     padding: 10px;
 }
 
