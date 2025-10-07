@@ -84,10 +84,10 @@ iframe {
 
 /*stuff that stays the same*/
 .navbutton {
-    background-color: #d17bf7;
-    border: 2px dashed #444;
+    background-color: #020003;
+    border: 2px solid #444;
 
-    height: 60px;
+    height: 30px;
     padding: 10px;
 }
 
@@ -110,7 +110,7 @@ iframe {
 @media (min-width: 1200px) {
     .navbutton {
         display: inline-block;
-         width: 150px;
-         margin: 10px;
+        width: 150px;
+        margin: 10px;
     }
 }
