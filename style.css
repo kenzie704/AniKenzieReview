@@ -2,16 +2,16 @@ a:link {
     color: aqua;
 }
 a:visited {
-    color: #ea1b1b
+    color: #ea1b1b;
 }
 li {
     color: #d697ff;
     line-height: 1.5;
     font-style: normal;
 }
-table{
+table {
     color: #7675ff;
-    text-align: center; 
+    text-align: center;
     border: 1px solid #1eefd7;
     border-collapse: separate;
     border-spacing: 5px;
@@ -19,17 +19,17 @@ table{
 body {
     background-color: #262525;
 }
-input[type=text] {
+input[type="text"] {
     width: 50%px;
     padding: 3px;
     margin: 2px 0;
     box-sizing: border-box;
 }
 label {
-    color: aqua
+    color: aqua;
 }
 .highlight {
-    color: #dd96fc
+    color: #dd96fc;
 }
 
 .center {
@@ -69,12 +69,48 @@ img {
     height: auto;
 }
 
-video, iframe {
+video,
+iframe {
     display: block;
     margin: 1rem auto;
     max-width: 100%;
     height: auto;
 }
 
+.navbar {
+    text-align: center;
+    width: 100%;
+}
 
+/*stuff that stays the same*/
+.navbutton {
+    background-color: #d17bf7;
+    border: 2px dashed #444;
 
+    height: 60px;
+    padding: 10px;
+}
+
+/*default - mobile/phone*/
+.navbutton {
+    width: 100%;
+    margin: -2px;
+}
+
+/*tablet and up*/
+@media (min-width: 830px) {
+    .navbutton {
+        display: inline-block;
+        width: 25%;
+        margin: -4px;
+    }
+}
+
+/*large desktop*/
+@media (min-width: 1200px) {
+    .navbutton {
+        display: inline-block;
+         width: 150px;
+         margin: 10px;
+    }
+}
